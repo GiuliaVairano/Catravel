@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(191, 220, 246, 0.9);
+}
+
+h1{
+    color: #255FD6;
+}
+
+/* navbar */
+.navbar{
+    background-color: #0d0745e7;
+    border-bottom-right-radius: 45%;
+}
+
+.logonav{
+    height: 12vh;
+}
+
+.btnav{
+    width: 10vw;
+}
+
+.nav-link{
+    color: #8DF3F1;
+}
+.custom-toggler.navbar-toggler {
+    border-color: #8DF3F1 ;
+} 
+
+/* header */
+header{
+    height: 85vh;
+    color: #255FD6;
+}
+
+/* section */
+.card{
+    height: 75%;
+}
+
+/* header view */
+.headview{
+    height: 83vh;
+}
+
+/* footer */
+footer{
+    background-color: #4805d0;
+    border-top-left-radius: 45%;
+    color: #52B0DA;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.logofoot{
+    height: 8vh;
+    width: 14vw;
+    object-position: bottom;
+}
+
+.rowfoot{
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 670px) {
+    .logofoot{
+    height: 45px;
+    width: 70px;
+}
+    .rowfoot{
+        justify-content: start;
+}
+    .headview{
+        height: 65vh;
+    }
+    footer{
+        padding-top: 0px;
+    }
+}
